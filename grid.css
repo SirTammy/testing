@@ -16,10 +16,9 @@ body{
     display: grid;
     grid-template-columns: 3fr 1fr 2fr;
     grid-template-rows: 2fr 1fr 1fr;
-   gap: 10px;
-   width: 600px;
-   height: 400px;
-   
+    gap: 10px;
+    width: 600px;
+    height: 400px;  
 }
 .container:nth-of-type(1){
     grid-column: 1/3;
