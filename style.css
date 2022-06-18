@@ -12,6 +12,21 @@ body{
     font-size: 15px;
 }
 
+nav{
+    padding: 10px;
+    background-color: rgb(241, 206, 211);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+nav a{
+    text-decoration: none;
+    color: hsl(179, 100%, 13%);
+    margin-left: 40px;
+    font-weight: 500;
+}
+
 
 .container{
     width: 55%;
@@ -103,5 +118,14 @@ p{
     }
     .very-dark-cyan{
         border-radius: 0 0 10px 10px;
+    }
+    nav{
+        justify-content: space-around;
+    }
+    nav a{
+        text-decoration: none;
+        color: hsl(179, 100%, 13%);
+        font-weight: 500;
+        margin-left: 0;
     }
 }
